@@ -4,6 +4,26 @@ import Approutes from "./components/appRoutes/Approutes";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 const App = () => {
+
+
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+console.log("ok");
+
+
   return (
     <main>
       <Header />
