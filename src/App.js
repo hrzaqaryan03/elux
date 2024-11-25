@@ -6,23 +6,6 @@ import Footer from "./components/footer/Footer";
 const App = () => {
 
 
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-console.log("ok");
-
 
   return (
     <main>

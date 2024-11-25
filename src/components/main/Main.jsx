@@ -8,17 +8,17 @@ const Main = () => {
   const [manualChange , setManualChange] = useState(false)
 
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    if(!manualChange) {
-      const interval = setInterval(() => {
-        setCurrentIndex((prev) => (prev + 1) % images.length);
-      }, 3000);
+  //   if(!manualChange) {
+  //     const interval = setInterval(() => {
+  //       setCurrentIndex((prev) => (prev + 1) % images.length);
+  //     }, 3000);
       
-          return () => clearInterval(interval);
-    }
+  //         return () => clearInterval(interval);
+  //   }
 
-  }, [images.length , manualChange]);
+  // }, [images.length , manualChange]);
 
 
   const handleDotClick = (index) => {
@@ -64,8 +64,8 @@ const Main = () => {
             })}
           </div>
         </div>
-        <Booking/>
       </div>
+      <Booking/>
     </main>
   );
 };
