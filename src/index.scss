@@ -14,7 +14,7 @@
     line-height: 1.5;
   }
   body {
-    background-color: #fbf7f2;
+    // background-color: #fbf7f2;
     z-index: 1;
   }
   a {
@@ -30,6 +30,8 @@
     border: none;
     background: none;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
   }
   
   img {
@@ -49,4 +51,8 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
+  // .css-1wy0on6 {
+  //   flex-direction: row-reverse;
+  //   gap: 20px;
+  // }
  

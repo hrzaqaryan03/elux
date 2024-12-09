@@ -7,6 +7,9 @@ const Booking = () => {
       <div className={style.booking__container}>
         <div className={style.booking__items}>
             <ChooseService/>
+            <ChooseService/>
+            <ChooseService/>
+            <ChooseService/>
           
         </div>
       </div>

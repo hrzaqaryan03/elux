@@ -65,7 +65,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <Booking/>
+      {/* <Booking/> */}
     </main>
   );
 };

@@ -1,0 +1,83 @@
+@import '../../styles/vars.scss';
+
+
+.bestTeam {
+    // margin-block: 100px;
+    background-color: #fbf7f2;
+    .title {
+        padding-top: 50px;
+        width: 100%;
+        margin-bottom: 50px;
+        .title_container {
+            width: 100%;
+            max-width: $container-width;
+            margin: 0 auto;
+            @media (max-width: 1200px) {
+                max-width: $container-width-medium;
+              }
+              @media (max-width: 1024px) {
+                max-width: $container-width-medium-small;
+              }
+              
+            h2 {
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                span {
+                    font-family: $font-italina;
+                    font-size: 40px;
+                    font-weight: 400;
+                    color: #292929;
+                    display: block;
+                    width: 100%;
+                    width: 270px;
+                }
+                .styled {
+                    color: #E66445;
+                    font-size: 64px;
+                    font-weight: 400;
+                    font-family: $styled-texts;
+
+                }
+            }
+        }
+    }
+    .body {
+        padding-inline: 20px;
+        background-color: $ivory;
+        .swiper {
+           
+            padding-block: 40px;
+            .swiperSlide {
+                max-width: 290px;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .slideContent {
+                    position: relative;
+                    img {
+                        // width: 100%;
+                        // max-width: 376px;
+                        width: 276px;
+                        border-radius: 12px;
+                        height: 354px;
+                        object-fit: cover;
+                       
+                    }
+                    .view {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 40%;
+                        font-family: $font-manrope;
+                        font-size: 15px;
+                        color: #292929;
+                        font-weight: 300;
+                    }   
+                }
+            }
+            
+        }
+    }
+}
+
