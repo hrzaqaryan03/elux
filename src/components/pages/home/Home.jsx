@@ -6,17 +6,19 @@ import OurServices from '../../ourServices/OurServices';
 import Pricing from '../../pricing/Pricing';
 import ImageBanner from '../../imageBanner/ImageBanner';
 import BestTeam from '../../bestTeam/BestTeam';
+import CustomerReport from '../../customerReport/CustomerReport';
 const Home = () => {
   
 
   return (
-    <div className={style.home}>
+    <div className={style.home} style={{backgroundColor:'#fbf7f2'}}>
       <Main/>
       <OurServices/>
       {/* <Test/> */}
       <Pricing/>
       <ImageBanner/>
       <BestTeam/>
+      <CustomerReport/>
     </div>
   )
 }

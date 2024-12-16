@@ -3,6 +3,8 @@ import authReducer from './authSlice';
 import mainReducer from '../components/main/mainSlice';
 import pricingReducer from './slices/pricing/pricingSlice';
 import expertReducer from './slices/expert/expertSlice';
+import customerReportReducer from './slices/customerReport/customerReport';
+import offersReducer from './slices/offers/offersSlice';
 
 const store = configureStore({
     reducer:{
@@ -10,6 +12,8 @@ const store = configureStore({
         main:mainReducer,
         pricing:pricingReducer,
         experts:expertReducer,
+        customerReports:customerReportReducer,
+        offers: offersReducer,
     }
 })
 

@@ -1,0 +1,29 @@
+@import '../../styles/vars.scss';
+
+.breadCrumb {
+
+    ul {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        li {
+
+            a {
+                display: inline-block;
+                margin-right: 6px;
+                color: #525252;
+                font-size: 14px;
+                font-family: $font-manrope;
+                font-weight: 300;                
+            }
+            span {
+                font-size: 14px;
+                font-family: $font-manrope;
+                font-weight: 300;     
+                svg {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}

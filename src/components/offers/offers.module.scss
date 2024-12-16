@@ -1,0 +1,150 @@
+@import '../../styles/vars.scss';
+
+
+.offers {
+    width: 100%;
+    .offers__container {
+        width: 100%;
+        max-width: $container-width;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 100px;
+        @media (max-width: 1200px) {
+            max-width: $container-width-medium;
+            padding-bottom: 0;
+          }
+          @media (max-width: 1024px) {
+            max-width: $container-width-medium-small;
+          }
+          @media(max-width:768px) {
+            flex-direction: column;
+            gap: 0;
+          }
+        .hidden {
+            display: none;
+            @media(max-width:768px) {
+                display: block;
+            }
+            img {
+                border-radius: 12px;
+            }
+        }
+        .content {
+
+            .title {
+
+                margin-bottom: 40px;
+                h3 {
+                    font-family: $font-italina;
+                    font-size: $headingsh2big;
+                    font-weight: 400;
+                    margin-right: 10px;
+                    color: $text-primary;
+                    @media(max-width:768px) {
+                        margin-bottom: 40px;
+                    }
+                   
+                }
+                .title_hidden {
+                    display: none;
+                    @media(max-width:768px) {
+                        display: block;
+                    }
+                    img {
+
+                        border-radius: 12px;
+                    }
+                }
+            }
+            .body {
+    
+                ul {
+    
+                    li {
+                        display: flex;
+                        justify-content: start;
+                        align-items: start;
+                        gap: 16px;
+                        margin-bottom: 32px;
+                        .left {
+                            padding: 6px 10px;
+                            border-radius: 50%;
+                            border: 1px solid #989898;
+                            svg {
+    
+    
+                            }
+                        }
+    
+                        .right {
+    
+    
+                            p {
+                                font-family: $font-manrope;
+                                font-size: 20px;
+                                font-weight: 700;
+                                color: #292929;
+                                margin-bottom: 10px;
+
+                                
+                            }
+    
+                            span {
+                                font-family: $font-manrope;
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #7C7C7C;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .images {
+            @media(max-width:768px) {
+                display: none;
+            }
+            .imageBox {
+                width: 34vw;
+                
+                display: flex;
+                justify-content: end;
+                align-items: start;
+               
+
+                .item {
+                    position: relative;
+
+                    img {
+                        width: 28vw;
+                        max-width: 374px;
+                        height: 38vw;
+                        object-fit: cover;
+                        object-position: center;
+                        // height: 550px;
+                        border-radius: 12px;
+                        min-width: 256px;
+                    }
+                    & img:nth-child(2) {
+                        position: absolute;
+                        bottom: -30%;
+                        left: -30%;
+                        border-radius: 12px;
+                        width: 21vw;
+                        max-width: 276px;
+                        object-fit: cover;
+                        object-position: center;
+                        height: 26vw;
+                        max-height: 353px;
+                        min-width: 215px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

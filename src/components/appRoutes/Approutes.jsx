@@ -8,12 +8,15 @@ import Services from '../pages/services/Services'
 import Experts from '../pages/experts/Experts'
 import Contact from '../pages/contact/Contact'
 import SingleExpert from '../singleExpert/SingleExpert'
+import Temp from '../temp/Temp'
 const Approutes = () => {
+
 
   return (
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
+      <Route path='/about/temp' element={<Temp/>} />
       <Route path='/experts' element={<Experts/>}>
       </Route>
       <Route path="/experts/:id" element={<SingleExpert />} />
